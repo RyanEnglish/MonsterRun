@@ -5,7 +5,7 @@
 
 public class Monster extends Moveable {
 	private boolean canView = true;  // allows
-	private Player player;
+	protected Player player;
 	public Monster(Grid g, Player p, int row, int col) throws Exception
 	{
 	   super(g);
